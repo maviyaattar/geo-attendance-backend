@@ -5,12 +5,10 @@ Flask application factory and entry point.
 
 Run locally::
 
-    cd backend
     flask run
 
 Run with Gunicorn (production / Render)::
 
-    cd backend
     gunicorn app:app
 
 Environment variables (override via .env or Render dashboard):
